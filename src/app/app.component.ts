@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'NgSightApp';
+  title = 'NgSight';
+  subtitle = 'Business Development Application with Angular';
 }
