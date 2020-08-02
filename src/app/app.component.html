@@ -1,12 +1,16 @@
-<app-navbar></app-navbar>
+<app-navbar id="navbar"
+      class="navbar navbar-dark fixed-top bg-black">
+</app-navbar>
 <div class="container-fluid">
-  <div class="row" id="maincontent">
-    <app-sidebar class="col-sm-3">
+  <div class="row" id="mainContent">
+    <app-sidebar
+       id="sidebar"
+       class="col-sm-3 col-md-2 d-none d-sm-block">
 
     </app-sidebar>
-    <div class="col-sm-9" id="dashboard">
-      <p>dashboard content goes here</p>
-    </div>
+    <app-dashboard class="col-sm-9" id="dashboard">
+         
+    </app-dashboard>
   </div>
 </div>
 
