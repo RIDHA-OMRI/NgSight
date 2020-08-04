@@ -1,0 +1,7 @@
+.section-container{
+  display: flex;
+  width: 30%;
+  position: absolute;
+  flex-direction: column;
+  margin-left: 200px;
+}

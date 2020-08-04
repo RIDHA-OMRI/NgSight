@@ -2,10 +2,12 @@
    height:100vh;
    padding-top: 80px;
    position: fixed;
-   background-color:grey;
+   background-color:#191f26;
+
 }
 #dashboard{
   margin-top: 60px;
+
 }
 #navbar{
  background-color: #161A1E !important;
